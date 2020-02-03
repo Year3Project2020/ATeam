@@ -1,0 +1,84 @@
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.deps.json
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.runtimeconfig.json
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.runtimeconfig.dev.json
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.dll
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.csprojAssemblyReference.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorAssemblyInfo.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorAssemblyInfo.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.AssemblyInfoInputs.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.AssemblyInfo.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.TagHelpers.input.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.TagHelpers.output.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorCoreGenerate.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorTargetAssemblyInfo.cache
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorTargetAssemblyInfo.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.pdb
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.Views.dll
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.Views.pdb
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.Views.pdb
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.dll
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.pdb
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.csproj.CopyComplete
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Create.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Delete.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Details.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Edit.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Index.cshtml.g.cs
+C:\Users\T0042280G\Documents\Project 2020 Enterprise\ATeam\ATeam\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.deps.json
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.runtimeconfig.json
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.runtimeconfig.dev.json
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.dll
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.pdb
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.Views.dll
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\bin\Debug\netcoreapp2.1\ATeam.Views.pdb
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.csprojAssemblyReference.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorAssemblyInfo.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorAssemblyInfo.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.AssemblyInfoInputs.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.AssemblyInfo.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.TagHelpers.input.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.TagHelpers.output.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorCoreGenerate.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Create.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Delete.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Details.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Edit.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\PatientInputs\Index.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorTargetAssemblyInfo.cache
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.RazorTargetAssemblyInfo.cs
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.Views.pdb
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.dll
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.pdb
+C:\Users\Wei Quan\Desktop\ATeam\ATeam\obj\Debug\netcoreapp2.1\ATeam.csproj.CopyComplete
