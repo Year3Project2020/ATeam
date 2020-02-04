@@ -10,7 +10,7 @@ using Microsoft.AspNetCore.Authorization;
 
 namespace ATeam.Controllers
 {
-    [Authorize]
+
     public class PatientInputsController : Controller
     {
         private readonly ATeamContext _context;
