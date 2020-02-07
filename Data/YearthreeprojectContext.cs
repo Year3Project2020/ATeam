@@ -14,6 +14,7 @@ namespace Yearthreeproject.Models
         }
 
         public DbSet<Yearthreeproject.Models.Patients> Patients { get; set; }
+        public DbSet<Yearthreeproject.Models.History> History { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

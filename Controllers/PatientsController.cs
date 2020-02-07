@@ -37,6 +37,19 @@ namespace Yearthreeproject.Controllers
             return View(await patients.ToListAsync());
         }
 
+        public async Task<IActionResult> History(string searchString)
+        {
+            var history = from p in _context.History
+                           select p;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                history = history.Where(s => s.Patient.Contains(searchString));
+            }
+
+            return View(await history.ToListAsync());
+        }
+
 
 
         // GET: Patients/Details/5
@@ -95,6 +108,12 @@ namespace Yearthreeproject.Controllers
             return View(patients);
         }
 
+
+
+        
+
+        
+
         // POST: Patients/Edit/5
         // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
@@ -148,6 +167,8 @@ namespace Yearthreeproject.Controllers
             return View(patients);
         }
 
+        
+
         // POST: Patients/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
@@ -157,6 +178,35 @@ namespace Yearthreeproject.Controllers
             _context.Patients.Remove(patients);
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
+        }
+
+
+        public async Task<IActionResult> DeleteHistory(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var history = await _context.History
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (history == null)
+            {
+                return NotFound();
+            }
+
+            return View(history);
+        }
+
+        // POST: Patients/Delete/5
+        [HttpPost, ActionName("DeleteHistory")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed2(string id)
+        {
+            var history = await _context.History.FindAsync(id);
+            _context.History.Remove(history);
+            await _context.SaveChangesAsync();
+            return RedirectToAction(nameof(History));
         }
 
         private bool PatientsExists(string id)

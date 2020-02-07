@@ -1,0 +1,66 @@
+﻿@model IEnumerable<Yearthreeproject.Models.History>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+<form asp-controller="Patients" asp-action="History" method="get">
+    <p>
+        NRIC: <input id="search" type="text" name="SearchString">
+        <input id="filterBtn" type="submit" value="Filter" />
+    </p>
+</form>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Patient)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateOfVisit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Illness)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MedicationGiven)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Patient)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DateOfVisit)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Illness)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MedicationGiven)
+                </td>
+                @*<td>
+                        @Html.DisplayFor(modelItem => item.History)
+                    </td>*@
+                <td>
+                    <a asp-controller="Patients" asp-action="DeleteHistory" asp-route-id="@item.ID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+

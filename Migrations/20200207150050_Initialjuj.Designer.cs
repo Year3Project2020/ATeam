@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Yearthreeproject.Models;
 
 namespace Yearthreeproject.Migrations
 {
     [DbContext(typeof(YearthreeprojectContext))]
-    partial class YearthreeprojectContextModelSnapshot : ModelSnapshot
+    [Migration("20200207150050_Initialjuj")]
+    partial class Initialjuj
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

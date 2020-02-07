@@ -24,12 +24,22 @@ namespace Yearthreeproject.Controllers
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
+            ViewData["Message"] = "Contact Information";
 
             return View();
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        public IActionResult Patients()
+        {
+            return View();
+        }
+
+        public IActionResult Doctors()
         {
             return View();
         }
