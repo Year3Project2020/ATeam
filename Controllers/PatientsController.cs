@@ -5,10 +5,12 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 using Yearthreeproject.Models;
 
 namespace Yearthreeproject.Controllers
 {
+    [Authorize]
     public class PatientsController : Controller
     {
         private readonly YearthreeprojectContext _context;

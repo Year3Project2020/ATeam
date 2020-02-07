@@ -12536,11 +12536,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\T0042280G\\Documents\\Project 2020 Enterprise Github\\Yearthreeproject.csproj",
+      "projectUniqueName": "C:\\Users\\T0042280G\\Documents\\Temp gitgitgit\\Yearthreeproject.csproj",
       "projectName": "Yearthreeproject",
-      "projectPath": "C:\\Users\\T0042280G\\Documents\\Project 2020 Enterprise Github\\Yearthreeproject.csproj",
+      "projectPath": "C:\\Users\\T0042280G\\Documents\\Temp gitgitgit\\Yearthreeproject.csproj",
       "packagesPath": "C:\\Users\\T0042280G\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\T0042280G\\Documents\\Project 2020 Enterprise Github\\obj\\",
+      "outputPath": "C:\\Users\\T0042280G\\Documents\\Temp gitgitgit\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\",
