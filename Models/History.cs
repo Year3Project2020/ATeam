@@ -9,8 +9,10 @@ namespace Yearthreeproject.Models
     public class History
     {
         public string ID { get; set; }
+        [Required]
         public string Patient { get; set; }
         public DateTime DateOfVisit { get; set; }
+        [Required]
         public string Illness { get; set; }
         public string MedicationGiven { get; set; }
         public string Price { get; set; }

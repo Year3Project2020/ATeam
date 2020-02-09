@@ -69,7 +69,7 @@ using Yearthreeproject.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(125, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "117f7005ddea49309a724bfe239a9752", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "45a9db7649e34770ac5d6847f08fe53e", async() => {
                 BeginContext(148, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -91,7 +91,7 @@ using Yearthreeproject.Models;
             WriteLiteral("\r\n</p>\r\n\r\n");
             EndContext();
             BeginContext(172, 224, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "954e73ee4de44e589698cfdf96623078", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "179bd8af281746ce8938410548ee5f34", async() => {
                 BeginContext(238, 151, true);
                 WriteLiteral("\r\n    <p>\r\n        NRIC: <input id=\"search\" type=\"text\" name=\"SearchString\">\r\n        <input id=\"filterBtn\" type=\"submit\" value=\"Filter\" />\r\n    </p>\r\n");
                 EndContext();
@@ -252,7 +252,7 @@ using Yearthreeproject.Models;
             WriteLiteral("            <td>\r\n                ");
             EndContext();
             BeginContext(1934, 90, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01d5d524e1ca4e288a0f75b45352f74b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8b0fab0e0eab47a2922bda4c8f255ff0", async() => {
                 BeginContext(2014, 6, true);
                 WriteLiteral("Delete");
                 EndContext();
