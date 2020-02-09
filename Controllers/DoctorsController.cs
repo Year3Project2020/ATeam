@@ -28,17 +28,87 @@ namespace Yearthreeproject.Controllers
             return View();
         }
 
+        public async Task<IActionResult> Edit(string id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var history = await _context.History.FindAsync(id);
+            if (history == null)
+            {
+                return NotFound();
+            }
+            return View(history);
+        }
+
+
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> CreateHistory([Bind("ID,Patient,DateOfVisit,Illness,MedicationGiven")] History history)
+        public async Task<IActionResult> CreateHistory([Bind("ID,Patient,DateOfVisit,Illness,MedicationGiven,Price,Status")] History history)
         {
             if (ModelState.IsValid)
             {
                 _context.Add(history);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("History", "Patients");
+            }
+            return RedirectToAction("History", "Patients");
+        }
+
+        public async Task<IActionResult> Prescription(string searchString)
+        {
+            var history = from p in _context.History
+                          select p;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                history = history.Where(s => s.Patient.Contains(searchString));
+            }
+
+            return View(await history.ToListAsync());
+        }
+
+
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> ConfirmPayment(string id, [Bind("ID,Patient,DateOfVisit,Illness,MedicationGiven,Price,Status")] History history)
+        {
+            if (id != history.ID)
+            {
+                return NotFound();
+            }
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _context.Update(history);
+                    await _context.SaveChangesAsync();
+                }
+                catch (DbUpdateConcurrencyException)
+                {
+                    if (!DoctorsExists(history.ID))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
+                }
+                return RedirectToAction("Prescription", "Doctors");
             }
             return View(history);
         }
+
+        private bool DoctorsExists(string id)
+        {
+            return _context.History.Any(e => e.ID == id);
+        }
+
+
+
     }
 }

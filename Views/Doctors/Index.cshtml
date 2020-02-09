@@ -1,0 +1,88 @@
+﻿@model Yearthreeproject.Models.History
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" asp-controller="Doctors" asp-action="CreateHistory">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Patient" class="control-label"></label> <b>NRIC</b>
+                <input asp-for="Patient" class="form-control" />
+                <span asp-validation-for="Patient" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DateOfVisit" class="control-label"></label>
+                <input asp-for="DateOfVisit" class="form-control" />
+                <span asp-validation-for="DateOfVisit" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Illness" class="control-label"></label>
+                <input asp-for="Illness" class="form-control" />
+                <span asp-validation-for="Illness" class="text-danger"></span>
+            </div>
+
+
+
+
+            <div class="form-group">
+                <label asp-for="MedicationGiven" class="control-label"></label><br />
+                <label><input type="checkbox" value="Cough syrup" name="medicine">Cough syrup</label><br />
+                <label><input type="checkbox" value="Flu tablet" name="medicine">Flu tablet</label><br />
+                <label><input type="checkbox" value="Fever medicine" name="medicine">Fever medicine</label><br />
+                <label><input type="checkbox" value="Panadol" name="medicine">Panadol</label><br />
+                <label><input type="checkbox" value="Diarrhoea medicine" name="medicine">Diarrhoea medicine</label><br />
+                <label><input type="checkbox" value="Sleeping pills" name="medicine">Sleeping pills</label><br />
+                <input style="display: none;" id="medi" asp-for="MedicationGiven" class="form-control" />
+                <span asp-validation-for="MedicationGiven" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Price" class="control-label"></label> ($)
+                <input id="price" asp-for="Price" value=20.00 readonly class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label> ($)
+                <input id="price" asp-for="Status" value="Unpaid" readonly class="form-control" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-default" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+
+<script>
+    var medi = document.getElementById("medi");
+    var price = document.getElementById("price");
+    $(document).ready(function () {
+        $("input[name='medicine']").click(function () {
+            var favorite = [];
+            var items = 0;
+            $.each($("input[name='medicine']:checked"), function () {
+                favorite.push($(this).val());
+                items += 1;
+            });
+            medi.value = favorite.join(", ");
+            price.value = (Number(20) + Number(items * 5)).toFixed(2);
+            price.value = price.value.toString();
+        });
+    });
+</script>
+

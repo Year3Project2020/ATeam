@@ -211,6 +211,14 @@ namespace Yearthreeproject.Controllers
             return RedirectToAction(nameof(History));
         }
 
+
+
+
+        
+
+
+
+
         private bool PatientsExists(string id)
         {
             return _context.Patients.Any(e => e.ID == id);

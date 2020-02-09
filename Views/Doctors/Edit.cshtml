@@ -1,36 +1,52 @@
 ﻿@model Yearthreeproject.Models.History
 
 @{
-    ViewData["Title"] = "Create";
+    ViewData["Title"] = "Edit";
 }
+
+<h2>Edit</h2>
 
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form method="post" asp-controller="Doctors" asp-action="CreateHistory">
+        <form asp-controller="Doctors" asp-action="ConfirmPayment">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ID" />
             <div class="form-group">
                 <label asp-for="Patient" class="control-label"></label>
-                <input asp-for="Patient" class="form-control" />
+                <input asp-for="Patient" class="form-control" readonly/>
                 <span asp-validation-for="Patient" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="DateOfVisit" class="control-label"></label>
-                <input asp-for="DateOfVisit" class="form-control" />
+                <input asp-for="DateOfVisit" class="form-control" readonly/>
                 <span asp-validation-for="DateOfVisit" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Illness" class="control-label"></label>
-                <input asp-for="Illness" class="form-control" />
+                <input asp-for="Illness" class="form-control" readonly/>
                 <span asp-validation-for="Illness" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="MedicationGiven" class="control-label"></label>
-                <input asp-for="MedicationGiven" class="form-control" />
+                <input asp-for="MedicationGiven" class="form-control" readonly/>
                 <span asp-validation-for="MedicationGiven" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-default" />
+                <label asp-for="Price" class="control-label"></label>
+                <input asp-for="Price" class="form-control" readonly/>
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label"></label>
+                <select asp-for="Status">
+                    <option>Unpaid</option>
+                    <option>Paid</option>
+                </select>
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-default" />
             </div>
         </form>
     </div>

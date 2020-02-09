@@ -1,16 +1,11 @@
 ﻿@model IEnumerable<Yearthreeproject.Models.History>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Prescription";
 }
+<hr />
 
-<h2>Index</h2>
-
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-
-<form asp-controller="Patients" asp-action="History" method="get">
+<form asp-controller="Doctors" asp-action="Prescription" method="get">
     <p>
         NRIC: <input id="search" type="text" name="SearchString">
         <input id="filterBtn" type="submit" value="Filter" />
@@ -25,54 +20,47 @@
                 @Html.DisplayNameFor(model => model.Patient) NRIC
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.DateOfVisit)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Illness)
-            </th>
-            <th>
                 @Html.DisplayNameFor(model => model.MedicationGiven)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Price)
+                @Html.DisplayNameFor(model => model.Price) ($)
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Status)
+                Status
             </th>
-            <th>Action</th>
+            <th>
+               Action 
+            </th>
         </tr>
     </thead>
     <tbody>
         @foreach (var item in Model)
         {
-            
+
         <tr>
             <td>
                 @Html.DisplayFor(modelItem => item.Patient)
             </td>
             <td>
-                @Html.DisplayFor(modelItem => item.DateOfVisit)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Illness)
-            </td>
-            <td>
                 @Html.DisplayFor(modelItem => item.MedicationGiven)
             </td>
             <td>
-                $@Html.DisplayFor(modelItem => item.Price)
+                @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Status)
             </td>
-            @*<td>
-            @Html.DisplayFor(modelItem => item.History)
-        </td>*@
             <td>
-                <a asp-controller="Patients" asp-action="DeleteHistory" asp-route-id="@item.ID">Delete</a>
+                <a asp-controller="Doctors" asp-action="Edit" asp-route-id="@item.ID">Confirm Payment</a>
             </td>
         </tr>
         }
     </tbody>
 </table>
 
+
+
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
